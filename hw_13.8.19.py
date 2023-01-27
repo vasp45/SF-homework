@@ -32,6 +32,7 @@ for t in range(1, tickets+1):
         price += 990
     elif age >= 25: 
         price += 1390
-    
+
+
 print(  '\nИтого:\n  количество билетов: %d\n  общая стоимость: %d руб.\n  %s'%(
         tickets, price*0.9 if tickets > 3 else price, 'Скидка 10% !' if price and tickets>3 else '' ))

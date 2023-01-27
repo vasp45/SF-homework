@@ -21,7 +21,7 @@ tickets = my_input('Введите количество билетов, кото
 
 print('\nВы хотите приобрести %d билет%s\n' % ( tickets,
                                                 '' if str(tickets)[-1] == '1' and tickets != 11 else (
-                                                'a' if str(tickets)[-1] in '234' and not 10<tickets<15 else 'ов')))
+                                                'a' if str(tickets)[-1] in '234' and not 11<tickets<15 else 'ов')))
 
 
 price = 0

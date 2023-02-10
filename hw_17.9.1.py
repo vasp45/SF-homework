@@ -45,7 +45,7 @@ def binary_search(array, element, left, right):
         return binary_search(array, element, middle + 1, right)
 
 
-array = my_input("Введите последовательность чисел через пробел: ", min=1)
+array = my_input('Введите последовательность чисел через пробел: ', min=1)
 number = my_input('Введите отдельное число: ', max=1)[0]
 
 bubble_sort(array)

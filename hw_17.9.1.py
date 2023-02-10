@@ -5,7 +5,7 @@
 def my_input(text, min=None, max=None):
     while True:
         tmp_in = input(text).split()
-        if not any(e.lstrip('-').isnumeric() for e in tmp_in):
+        if not all(e.lstrip('-').isnumeric() for e in tmp_in):
             print('Введенные значения должны быть числами.\n')
             continue
         if min and len(tmp_in) < min:

@@ -25,7 +25,6 @@ def bubble_sort(array):
 
 
 def binary_search(array, element, left, right):
-    
     def not_unique_element(elem):
         # двигаемся влево если найденное число повторяется в последовательности
         if elem != -1 and array[elem] == array[elem + 1]:
